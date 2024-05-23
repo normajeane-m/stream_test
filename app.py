@@ -4,7 +4,7 @@ st.title('Robotics Class(2024.05.23)')
 
 # Using the "with" syntax
 with st.form(key='my_form'):
-	text_input = st.text_input(label='조 번호')
+	text_input = st.text_input(label='Team name')
 	genre = st.radio("Success",
 	    [":rainbow[Success]", "***Still...***", "Problem :movie_camera:"],
 	    captions = ["goooood", "Wait....", "Help!!"])
